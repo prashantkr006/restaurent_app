@@ -1,79 +1,60 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant Order Taking App</title>
+</head>
+<body>
 
-# Getting Started
+<h1>Restaurant Order Taking App</h1>
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+<p>This is a restaurant order taking app that allows users to manage pending and completed orders. Users can view, add, mark as complete, and delete orders through the app.</p>
 
-## Step 1: Start the Metro Server
+<h2>Instructions to Set Up and Run the App</h2>
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+<p>Follow these steps to set up and run the app:</p>
 
-To start Metro, run the following command from the _root_ of your React Native project:
+<ol>
+  <li>Make sure you have Node.js and npm installed on your machine.</li>
+  <li>Clone this repository to your local machine.</li>
+  <li>Navigate to the project's root directory in your terminal or command prompt.</li>
+  <li>Run the following command to install dependencies:</li>
+</ol>
 
-```bash
-# using npm
-npm start
+<pre><code>npm install</code></pre>
 
-# OR using Yarn
-yarn start
-```
+<ol start="5">
+  <li>Run the following command to start the development server:</li>
+</ol>
 
-## Step 2: Start your Application
+<pre><code>npm start</code></pre>
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+<p>The app will be available on your local development server, and you can access it through your web browser.</p>
 
-### For Android
+<h2>Url to Preview the app working</h2>
+<a href="https://drive.google.com/file/d/19JGwNAZNFCbF959xEnIu4cSBtCLMyaLw" target="_blank" rel="noopener noreferrer" >Watch working of the app</a>
 
-```bash
-# using npm
-npm run android
+<h2>App Features</h2>
 
-# OR using Yarn
-yarn android
-```
+<h3>1. View Pending and Completed Orders</h3>
+<p>Users can view the list of pending and completed orders on the home screen of the app.</p>
 
-### For iOS
+<h3>2. Add New Order</h3>
+<p>Users can add a new order through a validated order form. The form ensures all necessary information is provided before submitting the order.</p>
 
-```bash
-# using npm
-npm run ios
+<h3>3. Mark Order as Complete</h3>
+<p>Pending orders will have buttons to "Mark as Complete." When the user marks an order as complete, it will be moved from the pending list to the completed orders list.</p>
 
-# OR using Yarn
-yarn ios
-```
+<h3>4. Delete Order</h3>
+<p>Pending orders will also have a "Delete" button. When the user selects this option, the order will be removed from the pending list.</p>
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+<h3>5. Completion and Deletion Alerts</h3>
+<p>Upon completing or deleting an order, an alert will be displayed to inform the user of the action's success.</p>
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+<h2>Order List Display</h2>
+<p>In the orders list, pending orders will be displayed with buttons to mark as complete and delete. Completed orders, on the other hand, will only be listed without any buttons.</p>
 
-## Step 3: Modifying your App
+<h2>Note</h2>
+<p>This app is built using React Native and is intended for both iOS and Android platforms. Make sure to follow the instructions above to set up and run the app on your local machine.</p>
 
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+</body>
+</html>
